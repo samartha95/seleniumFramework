@@ -11,15 +11,31 @@
       <![CDATA[url opened]]>
     </line>
     <line>
+      <![CDATA[Searched for Rayban SunGlasses]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on first product of search result]]>
+    </line>
+    <line>
+      <![CDATA[Switched to new tab]]>
+    </line>
+    <line>
+      <![CDATA[Product has been added to cart]]>
+    </line>
+    <line>
       <![CDATA[Closed the browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-06-26T11:46:23 IST" name="Default suite" finished-at="2020-06-26T11:46:41 IST" duration-ms="18275">
+  <suite started-at="2020-06-26T15:01:12 IST" name="Default suite" finished-at="2020-06-26T15:01:32 IST" duration-ms="19441">
     <groups>
     </groups>
-    <test started-at="2020-06-26T11:46:23 IST" name="Default test" finished-at="2020-06-26T11:46:41 IST" duration-ms="18275">
+    <test started-at="2020-06-26T15:01:12 IST" name="Default test" finished-at="2020-06-26T15:01:32 IST" duration-ms="19441">
       <class name="com.testscripts.AddToCart">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.testscripts.AddToCart@37918c79]" started-at="2020-06-26T11:46:23 IST" name="configBC" finished-at="2020-06-26T11:46:34 IST" duration-ms="10698" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.testscripts.AddToCart@233fe9b6]" started-at="2020-06-26T15:01:12 IST" name="configBC" finished-at="2020-06-26T15:01:16 IST" duration-ms="3825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.testscripts.AddToCart@233fe9b6]" started-at="2020-06-26T15:01:16 IST" name="configBM" finished-at="2020-06-26T15:01:23 IST" duration-ms="6717" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opened the browser]]>
@@ -31,12 +47,24 @@
               <![CDATA[url opened]]>
             </line>
           </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method signature="addToCartTest()[pri:0, instance:com.testscripts.AddToCart@37918c79]" started-at="2020-06-26T11:46:34 IST" name="addToCartTest" finished-at="2020-06-26T11:46:37 IST" duration-ms="2984" status="PASS">
+        </test-method> <!-- configBM -->
+        <test-method signature="addToCartTest()[pri:0, instance:com.testscripts.AddToCart@233fe9b6]" started-at="2020-06-26T15:01:23 IST" name="addToCartTest" finished-at="2020-06-26T15:01:31 IST" duration-ms="8140" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Searched for Rayban SunGlasses]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on first product of search result]]>
+            </line>
+            <line>
+              <![CDATA[Switched to new tab]]>
+            </line>
+            <line>
+              <![CDATA[Product has been added to cart]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addToCartTest -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.testscripts.AddToCart@37918c79]" started-at="2020-06-26T11:46:37 IST" name="configAC" finished-at="2020-06-26T11:46:41 IST" duration-ms="4522" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.testscripts.AddToCart@233fe9b6]" started-at="2020-06-26T15:01:31 IST" name="configAC" finished-at="2020-06-26T15:01:32 IST" duration-ms="713" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closed the browser]]>

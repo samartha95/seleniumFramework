@@ -21,7 +21,20 @@ public class Homepage {
 	
 	@FindBy(xpath="//a[text()='Price: Low to High']")
 	private WebElement lowToHigh;
-
+	
+	@FindBy(xpath = "//div[@class=\"rush-component s-expand-height\" and @data-component-id=\"11\"]")
+	private WebElement raybanfirst;
+	
+	@FindBy(id ="add-to-cart-button")
+	private WebElement addToCart;
+	
+	public WebElement getAddToCart() {
+		return addToCart;
+	}
+	public WebElement getRaybanFirst() {
+		return raybanfirst;
+	}
+	
 	public WebElement getCategories() {
 		return categories;
 	}
