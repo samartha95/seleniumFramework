@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.testscripts.flipkart.Flipkart">
         <methods>
           <include name="configAC"/>
@@ -10,6 +11,16 @@
           <include name="productSpecs"/>
         </methods>
       </class> <!-- com.testscripts.flipkart.Flipkart -->
+=======
+      <class name="com.testscripts.AddToCart">
+        <methods>
+          <include name="addToCartTest"/>
+          <include name="configBM"/>
+          <include name="configAC"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.testscripts.AddToCart -->
+>>>>>>> branch 'master' of https://github.com/samartha95/seleniumFramework.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
